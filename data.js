@@ -24,23 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.588264635846496,
-        "pitch": 0.026812456045703925,
+        "yaw": -1.8595823487694503,
+        "pitch": 0.03812042100643609,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -0.2635580066369556,
-          "pitch": 0.25342973373950883,
-          "rotation": 0,
-          "target": "1-kitchenmeals"
+          "yaw": -0.25648762549737647,
+          "pitch": 0.19460779676022533,
+          "rotation": 5.497787143782138,
+          "target": "1-kitchenfamily"
+        },
+        {
+          "yaw": -1.3421819225798668,
+          "pitch": 0.3290204338889158,
+          "rotation": 0.7853981633974483,
+          "target": "2-upstairs-retreat"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-kitchenmeals",
-      "name": "Kitchen/Meals",
+      "id": "1-kitchenfamily",
+      "name": "Kitchen/Family",
       "levels": [
         {
           "tileSize": 256,
@@ -62,16 +68,16 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.7260549545987374,
-        "pitch": 0.00019689973043313103,
+        "yaw": 0.7322981929570744,
+        "pitch": 0.14465674400090478,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -1.2053714888145457,
-          "pitch": 0.19645494928511198,
+          "yaw": -1.26839673618678,
+          "pitch": 0.23763440641825184,
           "rotation": 0,
-          "target": "2-upstairs-retreat"
+          "target": "0-entryliving"
         }
       ],
       "infoHotspots": []
@@ -100,16 +106,35 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -2.050344067371247,
-        "pitch": 0.12519364267117084,
+        "yaw": -2.587408807961097,
+        "pitch": 0.1011990650452006,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -3.025313439589336,
+          "pitch": 0.462824817438225,
+          "rotation": 3.9269908169872414,
+          "target": "0-entryliving"
+        },
+        {
+          "yaw": -2.3195508495862764,
+          "pitch": 0.336216045570934,
+          "rotation": 0,
+          "target": "3-master-with-en-suite"
+        },
+        {
+          "yaw": -2.9306522425535633,
+          "pitch": 0.08945804979027017,
+          "rotation": 4.71238898038469,
+          "target": "4-bedroom-2"
+        }
+      ],
       "infoHotspots": []
     },
     {
       "id": "3-master-with-en-suite",
-      "name": "Master with en-suite",
+      "name": "Master with En-Suite",
       "levels": [
         {
           "tileSize": 256,
@@ -131,18 +156,11 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 2.1838545784592798,
-        "pitch": -0.04531590835686217,
+        "yaw": -3.0288295739964184,
+        "pitch": -0.10942661746129545,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 2.134305560436074,
-          "pitch": 0.20223070262332676,
-          "rotation": 4.71238898038469,
-          "target": "2-upstairs-retreat"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
@@ -169,15 +187,15 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -2.7996468473007283,
-        "pitch": 0.012371366972871556,
+        "yaw": -2.9774767913037614,
+        "pitch": -0.0115537926714957,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -2.7770827873007278,
-          "pitch": 0,
-          "rotation": 5.497787143782138,
+          "yaw": 2.9832274524141917,
+          "pitch": 0.3809448751271738,
+          "rotation": 0.7853981633974483,
           "target": "2-upstairs-retreat"
         }
       ],
@@ -207,23 +225,16 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.1968701473295038,
-        "pitch": 0.21919765422464543,
+        "yaw": -1.1197061348396637,
+        "pitch": 0.00981595462661744,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.6495298340148494,
-          "pitch": 0.13239863975348243,
-          "rotation": 0.7853981633974483,
-          "target": "2-upstairs-retreat"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "6-upstairs-bathroom",
-      "name": "Upstairs Bathroom",
+      "id": "6-bathroom",
+      "name": "Bathroom",
       "levels": [
         {
           "tileSize": 256,
@@ -245,26 +256,19 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.30810404142349057,
-        "pitch": 0.20278987560690354,
+        "yaw": 0.7837638847074011,
+        "pitch": 0.042560675844704576,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": -1.14514970309423,
-          "pitch": 0.22031551453419596,
-          "rotation": 0,
-          "target": "2-upstairs-retreat"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "14 Sandalwood Drive Oakleigh South",
+  "name": "14 Sandalwood Dr Oakleigh South",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
